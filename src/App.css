@@ -1,0 +1,173 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.logo {
+  border-radius: 40px;
+
+  
+}
+.logo:hover{
+  zoom: 120%;
+  cursor: pointer;
+}
+.header {
+  background-color: rgb(189, 237, 100);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  font-weight: bold;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+}
+.nav-items a:hover {
+  color: chartreuse;
+  cursor: pointer;
+  text-shadow: 2px 1px 2px  black;
+}
+.footer {
+  text-align: center;
+  background-color: rgb(189, 237, 100);
+  font-weight: bold;
+}
+.body {
+  height: auto;
+}
+.search {
+  padding-top: 10px;
+  background-color: darkolivegreen;
+}
+
+.rescard {
+  background-color: yellowgreen;
+
+  width: 200px;
+  padding: 5px;
+  word-wrap: break-word;
+}
+.rescard img {
+  display: block;
+  margin: auto;
+  height: 140px;
+  width: 180px;
+}
+.rescard:hover {
+  border: 2px solid black;
+  zoom: 120%;
+  cursor: pointer;
+  background-color: chartreuse;
+}
+.rescontainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: darkolivegreen;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.search button {
+  background-color: transparent;
+  font-weight: bold;
+  width: 150px;
+}
+.search button:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: chartreuse;
+}
+.btn{
+  background-color:darkolivegreen;
+  padding-top: 10px;
+  padding-left: 5px;
+  display: flex;
+  gap: 10px;
+}
+.btn input{
+  background-color: transparent;
+  border-style: none;
+  border-bottom:1px solid chartreuse;
+  font-weight: bold;
+  outline-style: none;
+
+
+}
+
+.btn button{
+  background-color: darkolivegreen;
+  font-weight: bold;
+  width: 60px;
+}
+.btn button:hover{
+background-color:chartreuse ;
+cursor: pointer;
+}
+.promo{
+  position: absolute;
+  color: black;
+  background-color: chartreuse;
+  font-weight: bold;
+  border: 2px solid;
+  border-radius: 10px;
+  width:5rem;
+  text-align: center;
+}
+.promo:hover{
+  zoom:120%;
+}
+.nav-items a{
+  text-decoration: none;
+  color: black;
+}
+.rescard a{
+  text-decoration: none;
+}
+.box{
+  background-color: transparent;
+  border-style: none;
+  border-bottom:1px solid chartreuse;
+  font-weight: bold;
+  outline-style: none;
+
+}
+.search{
+  padding-bottom: 10px;
+}
+.butto{
+  display: flex;
+  margin: auto;
+text-align: center;
+  background-color: chartreuse;
+  font-weight: bold;
+  width: 60px;
+}
+.butto:hover{
+  background-color: darkolivegreen;
+}
+.cart{
+  text-align: center;
+  background-color: rgb(189, 237, 100);
+  font-weight: bold;
+}
+.resItems{
+  display: flex;
+  flex-direction: column;
+  background-color: chartreuse;
+  gap: 10px;
+  padding: 10vh;
+  
+}
+.resItems button{
+  width:60px;
+  font-weight: bold;
+  text-align: center;
+  background-color: darkolivegreen;
+}
